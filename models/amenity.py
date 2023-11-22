@@ -1,7 +1,14 @@
 #!/usr/bin/python3
-""" State Module for HBNB project """
+"""
+Module Amenity class
+"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
+    """
+    Inherits from BaseModel
+    Public class attribute:
+        name: (str)
+    """
     name = ""

@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-""" State Module for HBNB project """
+"""
+Module State class
+"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ State class """
+    """
+    Inherits from BaseModel
+    Public class attribute:
+        name: (str)
+    """
     name = ""
