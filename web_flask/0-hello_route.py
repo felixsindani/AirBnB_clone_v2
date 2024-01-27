@@ -3,7 +3,7 @@
 A script that starts a Flask web application:
 """
 
-from flask import Flask, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def hello_route():
     Returns:
         str: "Hello HBNB"
     """
-    return render_template("100-hbnb.html")
+    return ("Hello HBNB!")
 
 
 if __name__ == "__main__":
